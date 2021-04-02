@@ -1,0 +1,35 @@
+$lightOrange: #FFCA08;
+$darkOrange: #F57921;
+$lightBlue: #ACCEEC;
+$darkBlue: #398BD4;
+
+body {
+    background: $darkBlue;
+  }
+
+
+#overallContainer {
+    background: $lightBlue;
+    width: 960px;
+
+}
+
+.row {
+    display:flex
+
+}
+
+.element {
+    width: 160px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.exaltField {
+    width: 50px;
+}
